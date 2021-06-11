@@ -88,7 +88,7 @@ function IndexPage() {
         </Radio.Group>
       </div>
       <div style={{ display: 'flex', justifyContent: 'space-around', alignContent: "center", flexDirection: "row", padding: '0.5em' }}>
-        <Card size="small" title="当前货量" headStyle={{ color: "#ccc" }} style={{ marginRight: '0.3em' }}>
+        <Card size="small" title="当前货量" headStyle={{ color: "#ccc" }} style={{ marginRight: '0.3em',width:"33%" }}>
           <Statistic
             value={11.28}
             precision={2}
@@ -97,7 +97,7 @@ function IndexPage() {
             suffix="%"
           />
         </Card>
-        <Card size="small" title="当前货量百分比" headStyle={{ color: "#ccc" }} style={{ marginRight: '0.3em' }}>
+        <Card size="small" title="当前货量百分比" headStyle={{ color: "#ccc" }} style={{ marginRight: '0.3em',width:"33%" }}>
           <Statistic
             value={11.28}
             precision={2}
@@ -106,7 +106,7 @@ function IndexPage() {
             suffix="t"
           />
         </Card>
-        <Card size="small" title="当前货量" headStyle={{ color: "#ccc" }}>
+        <Card size="small" title="当前货量" headStyle={{ color: "#ccc" }} style={{ width:"33%" }}>
           <Statistic
             value={30.28}
             precision={2}
